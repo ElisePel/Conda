@@ -51,7 +51,7 @@
 | Activate the virtual env | ``` conda activate yout-env ```
 | Install a new package (Jupyter Notebook) in the active environment | ``` conda install jupyter  ```
 | Add virtual env as a jupyter kernel |``` jupyter-notebook ```
-| Run an installed package (Jupyter Notebook) |``` ipython kernel intall --name "local-env" --user ```
+| Run an installed package (Jupyter Notebook) |``` ipython kernel install --name "local-env" --user ```
 | Install a new package (toolz) in a different environment (bio-env)  | ``` conda install --name bio-env toolz ```
 | Update a package in the current environment | ``` conda update scikit-learn ```
 | Install a package (boltons) from a specific channel (conda-forge) | ``` conda install --channel conda-forge boltons ```
@@ -81,3 +81,6 @@ Ways to specify a package version number for use with conda create or conda inst
  | AND  | "numpy>=1.8,<2" |  1.8, 1.9, not 2.0
 
 
+## Commands
+
+Know if the GPU runs ```nvidia-smi```
