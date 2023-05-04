@@ -84,3 +84,5 @@ Ways to specify a package version number for use with conda create or conda inst
 ## Commands
 
 Know if the GPU runs ```nvidia-smi```
+List kernels : ```jupyter kernelspec list```
+Delete kernels : ```jupyter kernelspec uninstall kernels_name```
