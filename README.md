@@ -26,6 +26,7 @@
 | ------------- | ------------- |
 | Create a new environment named py35, install Python 3.5 | ``` conda create --name py35 python=3.5  ```
 | Create a new environment named py35 with prefix, install Python 3.5 | ``` conda create --prefix=/HOME/FI/py35 python=3.5  ```
+| Show this environment in my kernel list | ``` pip install ipykernel  ```  ``` python -m ipykernel install --user --name ENVNAME --display-name "Python (whatever you want to call it)" ```
 | Activate the new environment to use it |``` LINUX, macOS: source activate py35 ``` ``` WINDOWS: activate py35 ```
 | Get a list of all my environments, active environment is shown with * |   ``` conda env list ```
 | Make exact copy of an environment |  ``` conda create --clone py35 --name py35-2 ```
