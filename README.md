@@ -19,6 +19,7 @@
 | Run a package after install, example Spyder*         | ``` spyder ```         |
 | Update any installed program         | ``` conda update PACKAGENAME ```         |
 | Command line help         | ``` COMMANDNAME --help ``` ``` conda install --help ```         |
+| Open MiniForge         | ``` cmd ```         |
 
 ## Using environnements
 
